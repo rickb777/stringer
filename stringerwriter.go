@@ -25,7 +25,7 @@ func (sw *StringerWriter) Imports(t typewriter.Type) []typewriter.ImportSpec {
 }
 
 func (sw *StringerWriter) Write(w io.Writer, t typewriter.Type) error {
-	_, found := t.FindTag(sw)
+	_, found := t.FindTag(sw.Name())
 
 	if !found {
 		return nil
