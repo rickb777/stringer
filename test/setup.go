@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/clipperhouse/stringer"
-	"github.com/clipperhouse/typewriter"
+	_ "github.com/rickb777/stringer"
+	"github.com/rickb777/typewriter"
 )
 
 func main() {
